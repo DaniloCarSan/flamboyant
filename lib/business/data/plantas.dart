@@ -671,7 +671,8 @@ class PlantaData {
   ];
 
   static List<Planta> ordenada() {
-    plantasData.sort((a, b) => a.nomePopular.compareTo(b.nomePopular));
+    plantasData.sort((a, b) =>
+        a.nomePopular.toLowerCase().compareTo(b.nomePopular.toLowerCase()));
     return plantasData;
   }
 }
