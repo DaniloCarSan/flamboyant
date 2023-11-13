@@ -4,7 +4,8 @@ import 'package:flamboyant/business/entities/planta.dart';
 class PlantaData {
   static final List<Planta> plantasData = [
     Planta(
-      foto: "Cabreúva",
+      identificacao: 'cabreuva',
+      foto: "cabreuva",
       nomePopular: "Cabreúva",
       nomeCientifico: "Myroxylon peruiferum",
       familia: "Fabaceae",
@@ -25,7 +26,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Pitanga",
+      identificacao: 'pitanga',
+      foto: "pitanga",
       nomePopular: "Pitanga",
       nomeCientifico: "Eugenia uniflora",
       familia: "Myrtaceae",
@@ -45,7 +47,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Canelinha",
+      identificacao: 'canelinha',
+      foto: "canelinha",
       nomePopular: "Canelinha",
       nomeCientifico: "Nectandra megapotamica",
       familia: "Lauraceae",
@@ -65,7 +68,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Canafístula",
+      identificacao: 'canafistula',
+      foto: "canafistula",
       nomePopular: "Canafístula",
       nomeCientifico: "Peltophorum dubium",
       familia: "Fabaceae",
@@ -87,7 +91,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Pau-jacaré",
+      identificacao: 'pau-jacare',
+      foto: "pau-jacare",
       nomePopular: "Pau-jacaré",
       nomeCientifico: "Piptadenia gonoacantha",
       familia: "Fabaceae",
@@ -104,7 +109,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Peroba-rosa",
+      identificacao: "peroba-rosa",
+      foto: "peroba-rosa",
       nomePopular: "Peroba-rosa",
       nomeCientifico: "Aspidosperma polyneuron",
       familia: "Apocynaceae",
@@ -125,7 +131,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Guatambu",
+      identificacao: 'guatambu',
+      foto: "guatambu",
       nomePopular: "Guatambu",
       nomeCientifico: "Aspidosperma ramiflorum ",
       familia: "Apocynaceae",
@@ -145,7 +152,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Jenipapo",
+      identificacao: 'jenipapo',
+      foto: "jenipapo",
       nomePopular: "Jenipapo",
       nomeCientifico: "Genipa infundibuliformis",
       familia: "Rubiaceae",
@@ -164,7 +172,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: " Ipê branco",
+      identificacao: 'ipe-branco',
+      foto: "ipe-branco",
       nomePopular: " Ipê branco",
       nomeCientifico: "Tabebuia roseoalba",
       familia: "Bignoniaceae",
@@ -183,7 +192,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: " Ingá-ferradura",
+      identificacao: 'inga-ferradura',
+      foto: "inga-ferradura",
       nomePopular: " Ingá-ferradura",
       nomeCientifico: "Inga sessilis",
       familia: "Fabaceae",
@@ -205,7 +215,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Jequitibá-rosa",
+      identificacao: 'jequitiba-rosa',
+      foto: "jequitiba-rosa",
       nomePopular: "Jequitibá-rosa",
       nomeCientifico: "Cariniana legalis",
       familia: " Lecythidaceae",
@@ -227,7 +238,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Canchim",
+      identificacao: 'canchim',
+      foto: "canchim",
       nomePopular: "Canchim",
       nomeCientifico: "Pachystroma longifolium",
       familia: "Euphorbiaceae",
@@ -249,7 +261,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: " Angico-branco",
+      identificacao: 'angico-branco',
+      foto: "angico-branco",
       nomePopular: " Angico-branco",
       nomeCientifico: "Anadenanthera colubrina ",
       familia: "Fabaceae",
@@ -269,7 +282,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Solanum-prata",
+      identificacao: 'solanum-prata',
+      foto: "solanum-prata",
       nomePopular: "Solanum-prata",
       nomeCientifico: "Solanum argenteum",
       familia: "Solanaceae",
@@ -287,7 +301,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Abricó-de-macaco",
+      identificacao: 'abrico-de-macaco',
+      foto: "abrico-de-macaco",
       nomePopular: "Abricó-de-macaco",
       nomeCientifico: "Couroupita guianensis",
       familia: "Lecythidaceae",
@@ -308,7 +323,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Tamboril",
+      identificacao: 'tamboril',
+      foto: "tamboril",
       nomePopular: "Tamboril",
       nomeCientifico: "Enterolobium contortisiliquum",
       familia: "Fabaceae",
@@ -328,7 +344,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Guaritá",
+      identificacao: 'guarita',
+      foto: "guarita",
       nomePopular: "Guaritá",
       nomeCientifico: "Astronium graveolens",
       familia: "Anacardiaceae",
@@ -349,7 +366,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Jatobá",
+      identificacao: 'jatoba',
+      foto: "jatoba",
       nomePopular: "Jatobá",
       nomeCientifico: "Hymenaea courbaril",
       familia: "Fabaceae",
@@ -368,7 +386,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Araribá",
+      identificacao: 'arariba',
+      foto: "arariba",
       nomePopular: "Araribá",
       nomeCientifico: "Centrolobium tomentosum",
       familia: "Fabaceae",
@@ -391,7 +410,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Pau-brasil",
+      identificacao: 'pau-brasil',
+      foto: "pau-brasil",
       nomePopular: "Pau-brasil",
       nomeCientifico: "Paubrasilia echinata",
       familia: "Fabaceae",
@@ -412,7 +432,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Pata-de-vaca-de-espinho",
+      identificacao: 'pata-de-vaca-de-espinho',
+      foto: "pata-de-vaca-de-espinho",
       nomePopular: "Pata-de-vaca-de-espinho",
       nomeCientifico: "Bauhinia forficata",
       familia: "Fabaceae",
@@ -432,7 +453,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Paineira",
+      identificacao: 'paineira',
+      foto: "paineira",
       nomePopular: "Paineira",
       nomeCientifico: "Ceiba speciosa",
       familia: "Malvaceae",
@@ -453,7 +475,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Aroeira-pimenteira",
+      identificacao: 'aroeira-pimenteira',
+      foto: "aroeira-pimenteira",
       nomePopular: "Aroeira-pimenteira",
       nomeCientifico: "Schinus terebinthifolius",
       familia: "Anacardiaceae",
@@ -473,7 +496,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Açoita-Cavalo",
+      identificacao: 'acoita-cavalo',
+      foto: "acoita-cavalo",
       nomePopular: "Açoita-Cavalo",
       nomeCientifico: "Luehea divaricata",
       familia: "Malvaceae",
@@ -492,7 +516,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Aroeira Verdadeira ",
+      identificacao: 'aroeira-verdadeira',
+      foto: "aroeira-verdadeira",
       nomePopular: "Aroeira Verdadeira ",
       nomeCientifico: "Myracrodruon urundeuva ",
       familia: "Anacardiaceae ",
@@ -513,7 +538,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Catiguá",
+      identificacao: 'catigua',
+      foto: "catigua",
       nomePopular: "Catiguá",
       nomeCientifico: "Trichilia catingua  ",
       familia: "Meliaceae ",
@@ -532,7 +558,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Catiguá de folha miúda ",
+      identificacao: 'catigua-de-folha-miuda',
+      foto: "catigua-de-folha-miuda",
       nomePopular: "Catiguá de folha miúda ",
       nomeCientifico: "Trichilia elegans",
       familia: "Meliaceae ",
@@ -551,7 +578,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Arbusto escandente ",
+      identificacao: 'arbusto-escandente"',
+      foto: "arbusto-escandente",
       nomePopular: "Arbusto escandente  ",
       nomeCientifico: "Coccoloba cordifolia ",
       familia: "Polygonaceae",
@@ -572,7 +600,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Uvaia",
+      identificacao: 'uvaia',
+      foto: "uvaia",
       nomePopular: "Uvaia",
       nomeCientifico: "Eugenia pyriformis",
       familia: "Myrtaceae",
@@ -593,7 +622,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Ipê-amarelo",
+      identificacao: 'ipe-amarelo',
+      foto: "ipe-amarelo",
       nomePopular: "Ipê-amarelo",
       nomeCientifico: "Handroanthus chrysotrichus",
       familia: "Bignoniaceae",
@@ -613,7 +643,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Pau-marfim",
+      identificacao: 'pau-marfim',
+      foto: "pau-marfim",
       nomePopular: "Pau-marfim",
       nomeCientifico: "Balfourodendron riedelianum",
       familia: "Rutaceae",
@@ -633,7 +664,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Aldrago",
+      identificacao: 'aldrago',
+      foto: "aldrago",
       nomePopular: "Aldrago",
       nomeCientifico: "Pterocarpus violaceous",
       familia: "Fabaceae",
@@ -652,7 +684,8 @@ class PlantaData {
       ],
     ),
     Planta(
-      foto: "Clausena excavata",
+      identificacao: 'clausena-excavata',
+      foto: "clausena-excavata",
       nomePopular: "Clausena excavata",
       nomeCientifico: "Clausena excavata",
       familia: "Rutaceae",
