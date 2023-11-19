@@ -1,68 +1,71 @@
+import 'package:flamboyant/business/entities/quiz.dart';
 import 'package:flamboyant/ui/pages/plantas/plantas_page.dart';
+import 'package:flamboyant/ui/pages/quiz_item/quiz_item_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class HomePage extends StatelessWidget {
   static String route = "/";
 
   const HomePage({super.key});
 
+  goQuiz(BuildContext context) {
+    var quiz = Quiz(pergutasTotal: 10);
+    quiz.gerar();
+    Modular.to.pushNamed(QuizItemPage.route, arguments: quiz);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepOrange,
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            const Icon(
-              FontAwesomeIcons.tree,
-              size: 150,
-              color: Colors.white,
-            ),
-            const SizedBox(
-              height: 30,
-            ),
-            const Center(
-              child: Text(
-                "Flamboyant",
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 50,
-                  fontWeight: FontWeight.bold,
+      backgroundColor: Colors.white,
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.only(top: 80),
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              SizedBox(
+                child: Image.asset(
+                  './assets/images/logo.png',
+                  fit: BoxFit.cover,
                 ),
               ),
-            ),
-            const SizedBox(
-              height: 50,
-            ),
-            buttonWidget(
-              'Catalogo',
-              () => Modular.to.pushNamed(PlantasPage.route),
-            ),
-            const SizedBox(
-              height: 20,
-            ),
-            buttonWidget('Quiz', () {}),
-            const SizedBox(
-              height: 20,
-            ),
-            const SizedBox(
-              height: 20,
-            ),
-            const Center(
-              child: Text(
-                "v1.0.0",
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 12,
-                  fontWeight: FontWeight.bold,
+              const SizedBox(
+                height: 30,
+              ),
+              const Center(
+                child: Text(
+                  "Esalq",
+                  style: TextStyle(
+                    fontSize: 45,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
-            ),
-          ],
+              const Center(
+                child: Text(
+                  "Flamboyant",
+                  style: TextStyle(
+                    fontSize: 45,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+              const SizedBox(
+                height: 50,
+              ),
+              buttonWidget(
+                'Catalogo',
+                () => Modular.to.pushNamed(PlantasPage.route),
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              buttonWidget('Quiz', () => goQuiz(context)),
+            ],
+          ),
         ),
       ),
     );
@@ -86,6 +89,7 @@ class HomePage extends StatelessWidget {
         label,
         style: const TextStyle(
           fontSize: 14,
+          fontWeight: FontWeight.bold,
           color: Colors.black,
         ),
       ),
