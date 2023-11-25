@@ -1,5 +1,4 @@
 import 'package:flamboyant/business/entities/quiz.dart';
-import 'package:flamboyant/business/entities/quiz_item.dart';
 import 'package:flutter/material.dart';
 
 class QuizResultadoPage extends StatefulWidget {

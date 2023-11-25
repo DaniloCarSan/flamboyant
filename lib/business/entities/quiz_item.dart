@@ -10,7 +10,7 @@ class QuizItem {
 
   QuizItem({required this.plantaIdentificacao, required this.pergunta});
 
-  setResposta(Alternativa value) {
+  setResposta(Alternativa? value) {
     resposta = value;
   }
 

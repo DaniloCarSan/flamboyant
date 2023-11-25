@@ -43,7 +43,9 @@ class Quiz {
   }
 
   QuizItem getCurrentQuizItem() {
-    return quiz.elementAt(currentItem);
+    QuizItem i = quiz.elementAt(currentItem);
+    i.setResposta(null);
+    return i;
   }
 
   void setCurrentQuizItem(QuizItem quizItem) {
