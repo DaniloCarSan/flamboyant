@@ -1,3 +1,4 @@
+import 'package:easy_image_viewer/easy_image_viewer.dart';
 import 'package:flamboyant/business/entities/planta.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -11,6 +12,11 @@ class PlantaPage extends StatelessWidget {
     required this.planta,
   });
 
+  void viewFoto(BuildContext context) {
+    final imageProvider = Image.asset(planta.fotoURL).image;
+    showImageViewer(context, imageProvider, onViewerDismissed: () {});
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,6 +26,18 @@ class PlantaPage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
+            Center(
+              child: Padding(
+                padding: const EdgeInsets.all(15),
+                child: GestureDetector(
+                  child: Image.asset(
+                    planta.fotoURL,
+                    fit: BoxFit.cover,
+                  ),
+                  onTap: () => viewFoto(context),
+                ),
+              ),
+            ),
             ListTile(
               title: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,

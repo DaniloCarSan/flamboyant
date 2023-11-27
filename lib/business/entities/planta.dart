@@ -18,4 +18,6 @@ class Planta {
     required this.vegetativas,
     required this.reprodutivas,
   });
+
+  String get fotoURL => "./assets/images/plantas/$foto.jpg";
 }

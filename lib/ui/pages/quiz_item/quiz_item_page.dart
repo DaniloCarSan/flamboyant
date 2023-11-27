@@ -1,3 +1,4 @@
+import 'package:easy_image_viewer/easy_image_viewer.dart';
 import 'package:flamboyant/business/entities/quiz.dart';
 import 'package:flamboyant/business/entities/quiz_item.dart';
 import 'package:flamboyant/ui/pages/home/home_page.dart';
@@ -41,6 +42,11 @@ class _QuizItemPageState extends State<QuizItemPage> {
     );
   }
 
+  void viewFoto(BuildContext context) {
+    final imageProvider = Image.asset(quizItem.getPlanta().fotoURL).image;
+    showImageViewer(context, imageProvider, onViewerDismissed: () {});
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -62,7 +68,7 @@ class _QuizItemPageState extends State<QuizItemPage> {
           children: [
             Center(
               child: Padding(
-                padding: const EdgeInsets.all(35),
+                padding: const EdgeInsets.all(25),
                 child: Text(
                   quizItem.getPlanta().nomePopular,
                   style: const TextStyle(
@@ -73,11 +79,17 @@ class _QuizItemPageState extends State<QuizItemPage> {
               ),
             ),
             Center(
-              child: SizedBox(
-                child: Image.asset(
-                  './assets/images/logo.png',
-                  fit: BoxFit.cover,
-                  width: 300,
+              child: Padding(
+                padding: const EdgeInsets.only(
+                  right: 15,
+                  left: 15,
+                ),
+                child: GestureDetector(
+                  child: Image.asset(
+                    quizItem.getPlanta().fotoURL,
+                    fit: BoxFit.cover,
+                  ),
+                  onTap: () => viewFoto(context),
                 ),
               ),
             ),
