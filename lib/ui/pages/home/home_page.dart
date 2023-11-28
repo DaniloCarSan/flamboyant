@@ -57,7 +57,7 @@ class HomePage extends StatelessWidget {
                 height: 50,
               ),
               buttonWidget(
-                'Catalogo',
+                'Catálogo',
                 () => Modular.to.pushNamed(PlantasPage.route),
               ),
               const SizedBox(
