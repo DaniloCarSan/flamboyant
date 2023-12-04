@@ -26,6 +26,7 @@ class _QuizItemPageState extends State<QuizItemPage> {
   void initState() {
     super.initState();
     quizItem = widget.quiz.getCurrentQuizItem();
+    quizItem.pergunta.alternativas.shuffle();
   }
 
   proximaPergunta(BuildContext context) {
