@@ -745,7 +745,7 @@ List<QuizItem> quizItemsData = [
           verdadeiro: false,
         ),
         Alternativa(
-          descricao: 'Frutos apresentam forma obovada"',
+          descricao: 'Frutos apresentam forma obovada',
           verdadeiro: false,
         ),
         Alternativa(
@@ -769,7 +769,7 @@ List<QuizItem> quizItemsData = [
           verdadeiro: false,
         ),
         Alternativa(
-          descricao: 'Coração"',
+          descricao: 'Coração',
           verdadeiro: false,
         ),
         Alternativa(
@@ -793,7 +793,7 @@ List<QuizItem> quizItemsData = [
           verdadeiro: false,
         ),
         Alternativa(
-          descricao: 'Carimbo"',
+          descricao: 'Carimbo',
           verdadeiro: true,
         ),
         Alternativa(
@@ -817,11 +817,11 @@ List<QuizItem> quizItemsData = [
           verdadeiro: true,
         ),
         Alternativa(
-          descricao: '"Lâmina tem forma espatulada"',
+          descricao: 'Lâmina tem forma espatulada',
           verdadeiro: true,
         ),
         Alternativa(
-          descricao: '"Lâmina tem forma lanceolada',
+          descricao: 'Lâmina tem forma lanceolada',
           verdadeiro: false,
         ),
       ],
@@ -842,11 +842,11 @@ List<QuizItem> quizItemsData = [
           verdadeiro: true,
         ),
         Alternativa(
-          descricao: '"Composta bipinada"',
+          descricao: 'Composta bipinada',
           verdadeiro: false,
         ),
         Alternativa(
-          descricao: '"Com estípula',
+          descricao: 'Com estípula',
           verdadeiro: false,
         ),
       ],
@@ -866,11 +866,11 @@ List<QuizItem> quizItemsData = [
           verdadeiro: false,
         ),
         Alternativa(
-          descricao: '"Fabaceae-Caesalpinioideae"',
+          descricao: 'Fabaceae-Caesalpinioideae',
           verdadeiro: false,
         ),
         Alternativa(
-          descricao: '"Bignoniaceae',
+          descricao: 'Bignoniaceae',
           verdadeiro: false,
         ),
       ],
@@ -890,11 +890,11 @@ List<QuizItem> quizItemsData = [
           verdadeiro: false,
         ),
         Alternativa(
-          descricao: '"Pterygota brasiliensis"',
+          descricao: 'Pterygota brasiliensis',
           verdadeiro: true,
         ),
         Alternativa(
-          descricao: '"Pachystroma longifolium',
+          descricao: 'Pachystroma longifolium',
           verdadeiro: false,
         ),
       ],
@@ -914,11 +914,11 @@ List<QuizItem> quizItemsData = [
           verdadeiro: false,
         ),
         Alternativa(
-          descricao: '"Pterygota brasiliensis"',
+          descricao: 'Pterygota brasiliensis',
           verdadeiro: false,
         ),
         Alternativa(
-          descricao: '"Garcinia gardneriana',
+          descricao: 'Garcinia gardneriana',
           verdadeiro: true,
         ),
       ],
@@ -938,11 +938,11 @@ List<QuizItem> quizItemsData = [
           verdadeiro: false,
         ),
         Alternativa(
-          descricao: '"Bignoniaceae"',
+          descricao: 'Bignoniaceae',
           verdadeiro: false,
         ),
         Alternativa(
-          descricao: '"Boraginaceae',
+          descricao: 'Boraginaceae',
           verdadeiro: true,
         ),
       ],
