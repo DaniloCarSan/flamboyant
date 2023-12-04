@@ -6,16 +6,20 @@ import 'package:flamboyant/business/entities/planta.dart';
 class QuizItem {
   final String plantaIdentificacao;
   final Pergunta pergunta;
-  Alternativa? resposta;
+  List<Alternativa> respostas = [];
 
   QuizItem({required this.plantaIdentificacao, required this.pergunta});
 
-  setResposta(Alternativa? value) {
-    resposta = value;
+  setResposta(Alternativa value) {
+    if (respostas.contains(value)) {
+      respostas.remove(value);
+    } else {
+      respostas.add(value);
+    }
   }
 
   bool acertou() {
-    return resposta!.verdadeiro;
+    return respostas.every((element) => element.verdadeiro == true);
   }
 
   Planta getPlanta() {
@@ -23,6 +27,10 @@ class QuizItem {
   }
 
   bool hasResposta() {
-    return resposta != null;
+    return respostas.isNotEmpty;
+  }
+
+  clear() {
+    respostas = [];
   }
 }

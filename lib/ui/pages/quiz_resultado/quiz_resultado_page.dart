@@ -1,5 +1,6 @@
 import 'package:flamboyant/business/entities/quiz.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class QuizResultadoPage extends StatefulWidget {
   static String route = "/quiz_resultado";
@@ -113,43 +114,35 @@ class _QuizResultadoPageState extends State<QuizResultadoPage> {
                               ),
                             ),
                           ),
-                          ListTile(
-                            title: Column(
-                              children: [
-                                const SizedBox(
-                                  height: 20,
-                                ),
-                                Row(
-                                  children: [
-                                    const Text(
-                                      'Resposta: ',
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
-                                    Text(e.resposta!.descricao)
-                                  ],
-                                ),
-                                const SizedBox(
-                                  height: 20,
-                                ),
-                                Row(
-                                  children: [
-                                    const Text(
-                                      'Correta: ',
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
-                                    Text(e.pergunta.respostaCerta().descricao)
-                                  ],
-                                ),
-                                const SizedBox(
-                                  height: 20,
-                                ),
-                              ],
+                          const ListTile(
+                            title: Text(
+                              'Resposta(s) selecionada(s): ',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
-                          )
+                          ),
+                          ...e.respostas
+                              .map((e) => ListTile(
+                                    leading: Icon(FontAwesomeIcons.circleDot),
+                                    title: Text(e.descricao),
+                                  ))
+                              .toList(),
+                          const ListTile(
+                            title: Text(
+                              'Resposta(s) correta(s): ',
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ),
+                          ...e.pergunta
+                              .respostasCerta()
+                              .map((e) => ListTile(
+                                    leading: Icon(FontAwesomeIcons.circleDot),
+                                    title: Text(e.descricao),
+                                  ))
+                              .toList()
                         ],
                       ),
                     ),

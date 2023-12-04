@@ -9,7 +9,7 @@ class Pergunta {
     required this.alternativas,
   });
 
-  Alternativa respostaCerta() {
-    return alternativas.firstWhere((element) => element.verdadeiro);
+  List<Alternativa> respostasCerta() {
+    return alternativas.where((element) => element.verdadeiro).toList();
   }
 }

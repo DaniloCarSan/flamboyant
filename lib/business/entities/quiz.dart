@@ -44,7 +44,7 @@ class Quiz {
 
   QuizItem getCurrentQuizItem() {
     QuizItem i = quiz.elementAt(currentItem);
-    i.setResposta(null);
+    i.clear();
     return i;
   }
 

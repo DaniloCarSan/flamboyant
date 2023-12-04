@@ -110,17 +110,15 @@ class _QuizItemPageState extends State<QuizItemPage> {
                   .map(
                     (alternativa) => ListTile(
                       leading: Checkbox(
-                        value: quizItem.hasResposta()
-                            ? alternativa.descricao ==
-                                quizItem.resposta!.descricao
-                            : false,
+                        value: quizItem.respostas.contains(alternativa),
                         onChanged: (v) {
                           setState(() {
                             quizItem.setResposta(alternativa);
                           });
                         },
                       ),
-                      title: Text(alternativa.descricao),
+                      title: Text(
+                          alternativa.descricao + '${alternativa.verdadeiro}'),
                       onTap: () {
                         setState(() {
                           quizItem.setResposta(alternativa);
