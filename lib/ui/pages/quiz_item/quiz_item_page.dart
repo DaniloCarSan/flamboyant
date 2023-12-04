@@ -117,8 +117,7 @@ class _QuizItemPageState extends State<QuizItemPage> {
                           });
                         },
                       ),
-                      title: Text(
-                          alternativa.descricao + '${alternativa.verdadeiro}'),
+                      title: Text(alternativa.descricao),
                       onTap: () {
                         setState(() {
                           quizItem.setResposta(alternativa);

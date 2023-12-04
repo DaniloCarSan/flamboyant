@@ -216,7 +216,7 @@ List<QuizItem> quizItemsData = [
         ),
         Alternativa(
           descricao: 'Folha pilosa sem tricomas ferrugíneos',
-          verdadeiro: true,
+          verdadeiro: false,
         ),
       ],
     ),
@@ -586,7 +586,7 @@ List<QuizItem> quizItemsData = [
     ),
   ),
   QuizItem(
-    plantaIdentificacao: 'catigua',
+    plantaIdentificacao: "catigua",
     pergunta: Pergunta(
       descricao: " A semente do catiguá apresenta na sua estrutura:",
       alternativas: [

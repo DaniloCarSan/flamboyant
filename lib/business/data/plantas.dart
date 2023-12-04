@@ -578,7 +578,7 @@ class PlantaData {
       ],
     ),
     Planta(
-      identificacao: 'arbusto-escandente"',
+      identificacao: 'arbusto-escandente',
       foto: "arbusto-escandente",
       nomePopular: "Arbusto escandente  ",
       nomeCientifico: "Coccoloba cordifolia ",

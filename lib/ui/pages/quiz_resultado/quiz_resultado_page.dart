@@ -25,6 +25,7 @@ class _QuizResultadoPageState extends State<QuizResultadoPage> {
     return Scaffold(
       appBar: AppBar(title: const Text("Resultado")),
       body: SingleChildScrollView(
+        padding: const EdgeInsets.only(bottom: 40),
         child: Column(
           children: [
             Row(
