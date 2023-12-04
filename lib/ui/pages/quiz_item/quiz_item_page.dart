@@ -64,6 +64,7 @@ class _QuizItemPageState extends State<QuizItemPage> {
         ],
       ),
       body: SingleChildScrollView(
+        padding: const EdgeInsets.only(bottom: 80),
         child: Column(
           children: [
             Center(

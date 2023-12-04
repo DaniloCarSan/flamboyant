@@ -65,6 +65,21 @@ class PlantaPage extends StatelessWidget {
                 ],
               ),
             ),
+            const Divider(
+              height: 0,
+            ),
+            ListTile(
+              title: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  const Text(
+                    "Família: ",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                  Text(planta.familia)
+                ],
+              ),
+            ),
             Container(
               color: Theme.of(context).primaryColor,
               child: const ListTile(

@@ -701,6 +701,189 @@ class PlantaData {
         Caracteristica("Fruto baga"),
       ],
     ),
+    Planta(
+      identificacao: 'fumo-bravo',
+      foto: "fumo-bravo",
+      nomePopular: "Fumo-bravo",
+      nomeCientifico: "Solanum mauritianum",
+      familia: "Solanaceae",
+      vegetativas: [
+        Caracteristica("Folha simples"),
+        Caracteristica("Peciolada"),
+        Caracteristica("Filotaxia alterna"),
+      ],
+      reprodutivas: [
+        Caracteristica("Inflorescências ocorrem em corimbos terminais"),
+        Caracteristica("Corola violeta"),
+        Caracteristica("Flores são hermafroditas em forma de estrela"),
+        Caracteristica(
+            "Mesocarpo e endocarpo são constituídos por polpa branco-amarela"),
+        Caracteristica("Fruto indeiscente")
+      ],
+    ),
+    Planta(
+      identificacao: 'cereja-do-rio-grande',
+      foto: "cereja-do-rio-grande",
+      nomePopular: "Cereja-do-rio-grande",
+      nomeCientifico: "Eugenia involucrata",
+      familia: "Myrtaceae",
+      vegetativas: [
+        Caracteristica("Folha simples"),
+        Caracteristica("Consistência cartácea"),
+        Caracteristica("Filotaxia oposta"),
+      ],
+      reprodutivas: [
+        Caracteristica("Flor pentâmera"),
+        Caracteristica("Frutos são bagas piriformes"),
+        Caracteristica("Flores são hermafroditas"),
+        Caracteristica("Frutos apresentam forma obovada"),
+      ],
+    ),
+    Planta(
+      identificacao: 'bauhinia-bongardii',
+      foto: "bauhinia-bongardii",
+      nomePopular: "Bauhinia bongardii",
+      nomeCientifico: "Bauhinia bongardii",
+      familia: " Fabaceae",
+      vegetativas: [
+        Caracteristica("Filotaxia alterna dística"),
+        Caracteristica("Unifoliolada"),
+        Caracteristica("Bilobada"),
+        Caracteristica("Com estípulas"),
+      ],
+      reprodutivas: [
+        Caracteristica("Flores: pediceladas"),
+        Caracteristica("Hipanto presente"),
+        Caracteristica("Zigomorfas"),
+        Caracteristica("Fruto legume"),
+      ],
+    ),
+    Planta(
+      identificacao: 'cafe-de-bugre',
+      foto: "cafe-de-bugre",
+      nomePopular: "Café de bugre ",
+      nomeCientifico: "Cordia ecalyculata",
+      familia: " Fabaceae",
+      vegetativas: [
+        Caracteristica("Folha simples"),
+        Caracteristica("Folha com nervura central saliente na face abaxial"),
+        Caracteristica("Folha brilhante"),
+      ],
+      reprodutivas: [
+        Caracteristica("Flores pequenas e amarelas"),
+        Caracteristica("Pentâmeras"),
+        Caracteristica("Inflorescência corimbosas"),
+        Caracteristica("Fruto globoso tipo drupa"),
+      ],
+    ),
+    Planta(
+      identificacao: 'coite',
+      foto: "coite",
+      nomePopular: "Coité",
+      nomeCientifico: "Rescentia cujete",
+      familia: "Bignoniaceae",
+      vegetativas: [
+        Caracteristica("Folhas simples e aglomeradas  na ponta dos ramos"),
+        Caracteristica("Lâmina tem forma espatulada"),
+        Caracteristica("São subsésseis (com pecíolo ou cabinho muito curto"),
+      ],
+      reprodutivas: [
+        Caracteristica("Flor branca"),
+        Caracteristica(
+            "Campanulada (como sino) com cálice (invólucro externo) esverdeado "),
+        Caracteristica(
+            "Corola (invólucro interno) com tubo bojudo e com as bordas enroladas"),
+        Caracteristica("Frutos são grandes e esféricos"),
+      ],
+    ),
+    Planta(
+      identificacao: 'sansao-do-campo',
+      foto: "sansao-do-campo",
+      nomePopular: "Sansão do campo",
+      nomeCientifico: "Mimosa caesalpiniifolia",
+      familia: "Fabaceae-Caesalpinioideae",
+      vegetativas: [
+        Caracteristica("Folha alterna espiralada"),
+        Caracteristica("Com estípula"),
+        Caracteristica("Composta bipinada"),
+      ],
+      reprodutivas: [
+        Caracteristica("Flor branca"),
+        Caracteristica("Inflorescência racemosas"),
+        Caracteristica("Fruto tipo craspédio marrons"),
+        Caracteristica("Planta espinhenta"),
+      ],
+    ),
+    Planta(
+      identificacao: 'cocao',
+      foto: "cocao",
+      nomePopular: "Cocão",
+      nomeCientifico: " Erythroxylum deciduum",
+      familia: " Erythroxylaceae",
+      vegetativas: [
+        Caracteristica("Folha simples"),
+        Caracteristica("Filotaxia alterna"),
+        Caracteristica(
+            "Com estípulas estriadas longitudinalmente separam a espécies das demais de sua família"),
+      ],
+      reprodutivas: [
+        Caracteristica("Inflorescência em fascículos axilares"),
+        Caracteristica("Fruto drupa elipsóide"),
+        Caracteristica("Polpa carnosa e adocicada"),
+      ],
+    ),
+    Planta(
+      identificacao: 'pau-rei',
+      foto: "pau-rei",
+      nomePopular: "Pau rei",
+      nomeCientifico: "Pterygota brasiliensis",
+      familia: "Malvaceae",
+      vegetativas: [
+        Caracteristica("Folhas ovaladas a elípticas"),
+        Caracteristica("Nervação actinódroma"),
+        Caracteristica("Peciolada"),
+      ],
+      reprodutivas: [
+        Caracteristica("Flores ócraceas"),
+        Caracteristica("Flores dispostas em racemos axilares e subapicais"),
+        Caracteristica("Polpa carnosa e adocicada"),
+      ],
+    ),
+    Planta(
+      identificacao: 'bacupari-mirim',
+      foto: "bacupari-mirim",
+      nomePopular: "Bacupari-mirim",
+      nomeCientifico: "Garcinia gardneriana",
+      familia: "Clusiaceae ",
+      vegetativas: [
+        Caracteristica("Folha simples"),
+        Caracteristica("Filotaxia oposta"),
+        Caracteristica("Nervura central proeminente na face abaxial"),
+        Caracteristica("Sem estípula"),
+      ],
+      reprodutivas: [
+        Caracteristica(
+            "Inflorescência: sem racemos reduzidos com flores amarelas esbranquiçadas"),
+        Caracteristica("Actinomorfa"),
+        Caracteristica("Diclamídea"),
+        Caracteristica("Fruto tipo drupa globosa de cor amarelo alaranjado "),
+      ],
+    ),
+    Planta(
+      identificacao: 'babosa-branca',
+      foto: "babosa-branca",
+      nomePopular: "Babosa-Branca",
+      nomeCientifico: "Cordia superba",
+      familia: "Boraginaceae",
+      vegetativas: [
+        Caracteristica("Folhas simples, ásperas ao tato na face abaxial"),
+      ],
+      reprodutivas: [
+        Caracteristica("Flores de cor branca dispostas em corimbos terminais"),
+        Caracteristica(
+            "Fruto do tipo drupa globosa com polpa adocicada e pegajosa"),
+      ],
+    ),
   ];
 
   static List<Planta> ordenada() {
