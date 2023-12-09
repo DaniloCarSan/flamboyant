@@ -2,6 +2,14 @@
 
 Este é o Flamboyant, um aplicativo desenvolvido para a faculdade ESALQ. O aplicativo serve como um catálogo interativo de plantas, permitindo que os usuários explorem e aprendam sobre a diversidade de plantas na ESALQ.
 
+### Screenshots
+
+<p float="left">
+  <img src="https://github.com/DaniloCarSan/flamboyant/blob/main/assets/screenshots/home.png?raw=true" width="200" />
+  <img src="https://github.com/DaniloCarSan/flamboyant/blob/main/assets/screenshots/catalogo.png?raw=true" width="200" /> 
+  <img src="https://github.com/DaniloCarSan/flamboyant/blob/main/assets/screenshots/quiz.png?raw=true" width="200" />
+</p>
+
 ## Funcionalidades
 
 - **Catálogo de Plantas**: Explore uma variedade de plantas com descrições detalhadas e imagens de alta qualidade. Cada entrada do catálogo também inclui informações sobre o habitat da planta, suas características únicas e muito mais.
@@ -18,13 +26,6 @@ Este é o Flamboyant, um aplicativo desenvolvido para a faculdade ESALQ. O aplic
 
 Agradecemos qualquer contribuição para a melhoria deste aplicativo. Se você tiver alguma sugestão ou encontrar algum problema, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-### Screenshots
-
-<p float="left">
-  <img src="https://github.com/DaniloCarSan/flamboyant/blob/main/assets/screenshots/home.png?raw=true" width="200" />
-  <img src="https://github.com/DaniloCarSan/flamboyant/blob/main/assets/screenshots/catalogo.png?raw=true" width="200" /> 
-  <img src="https://github.com/DaniloCarSan/flamboyant/blob/main/assets/screenshots/quiz.png?raw=true" width="200" />
-</p>
 ## Licença
 
 Este projeto está licenciado sob a licença MIT.
