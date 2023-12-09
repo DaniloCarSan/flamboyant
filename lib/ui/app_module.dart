@@ -3,6 +3,7 @@ import 'package:flamboyant/ui/pages/plantas/plantas_page.dart';
 import 'package:flamboyant/ui/pages/home/home_page.dart';
 import 'package:flamboyant/ui/pages/quiz_item/quiz_item_page.dart';
 import 'package:flamboyant/ui/pages/quiz_resultado/quiz_resultado_page.dart';
+import 'package:flamboyant/ui/pages/sobre/sobre_page.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 class AppModule extends Module {
@@ -31,5 +32,6 @@ class AppModule extends Module {
       QuizResultadoPage.route,
       child: (context) => QuizResultadoPage(quiz: r.args.data),
     );
+    r.child(SobrePage.route, child: (context) => const SobrePage());
   }
 }

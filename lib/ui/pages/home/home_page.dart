@@ -1,6 +1,7 @@
 import 'package:flamboyant/business/entities/quiz.dart';
 import 'package:flamboyant/ui/pages/plantas/plantas_page.dart';
 import 'package:flamboyant/ui/pages/quiz_item/quiz_item_page.dart';
+import 'package:flamboyant/ui/pages/sobre/sobre_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
@@ -33,13 +34,13 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               const SizedBox(
-                height: 30,
+                height: 20,
               ),
               const Center(
                 child: Text(
                   "Esalq",
                   style: TextStyle(
-                    fontSize: 45,
+                    fontSize: 40,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
@@ -48,22 +49,41 @@ class HomePage extends StatelessWidget {
                 child: Text(
                   "Flamboyant",
                   style: TextStyle(
-                    fontSize: 45,
+                    fontSize: 40,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
               ),
               const SizedBox(
-                height: 50,
+                height: 30,
               ),
               buttonWidget(
                 'Catálogo',
                 () => Modular.to.pushNamed(PlantasPage.route),
               ),
               const SizedBox(
-                height: 20,
+                height: 15,
               ),
               buttonWidget('Quiz', () => goQuiz(context)),
+              const SizedBox(
+                height: 15,
+              ),
+              buttonWidget(
+                'Sobre',
+                () => Modular.to.pushNamed(SobrePage.route),
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              const Center(
+                child: Text(
+                  "Versão 1.0.0",
+                  style: TextStyle(
+                    fontSize: 12,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              )
             ],
           ),
         ),
@@ -81,7 +101,7 @@ class HomePage extends StatelessWidget {
             ),
           ),
         ),
-        minimumSize: MaterialStatePropertyAll(Size(200, 50)),
+        minimumSize: MaterialStatePropertyAll(Size(200, 45)),
         backgroundColor: MaterialStatePropertyAll(Colors.white),
       ),
       onPressed: () => onPressed(),
