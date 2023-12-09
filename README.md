@@ -20,10 +20,11 @@ Agradecemos qualquer contribuição para a melhoria deste aplicativo. Se você t
 
 ### Screenshots
 
-![Pagina inicial](https://github.com/DaniloCarSan/flamboyant/blob/main/assets/screenshots/home.png?raw=true)
-![Catálogo de plantas](https://github.com/DaniloCarSan/flamboyant/blob/main/assets/screenshots/catalogo.png?raw=true)
-![Quiz de plantas](https://github.com/DaniloCarSan/flamboyant/blob/main/assets/screenshots/quiz.png?raw=true)
-
+<p float="left">
+  <img src="https://github.com/DaniloCarSan/flamboyant/blob/main/assets/screenshots/home.png?raw=true" width="300" />
+  <img src="https://github.com/DaniloCarSan/flamboyant/blob/main/assets/screenshots/catalogo.png?raw=true" width="300" /> 
+  <img src="https://github.com/DaniloCarSan/flamboyant/blob/main/assets/screenshots/quiz.png?raw=true" width="300" />
+</p>
 ## Licença
 
 Este projeto está licenciado sob a licença MIT.
