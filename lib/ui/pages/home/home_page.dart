@@ -1,4 +1,5 @@
 import 'package:flamboyant/business/entities/quiz.dart';
+import 'package:flamboyant/configs.dart';
 import 'package:flamboyant/ui/pages/plantas/plantas_page.dart';
 import 'package:flamboyant/ui/pages/quiz_item/quiz_item_page.dart';
 import 'package:flamboyant/ui/pages/sobre/sobre_page.dart';
@@ -47,7 +48,7 @@ class HomePage extends StatelessWidget {
               ),
               const Center(
                 child: Text(
-                  "Flamboyant",
+                  nameApp,
                   style: TextStyle(
                     fontSize: 40,
                     fontWeight: FontWeight.bold,

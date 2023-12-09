@@ -1,3 +1,4 @@
+import 'package:flamboyant/configs.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
@@ -7,9 +8,10 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'Flamboyant',
+      title: nameApp,
+      debugShowCheckedModeBanner: !environmentProd,
       theme: ThemeData(primarySwatch: Colors.deepOrange),
       routerConfig: Modular.routerConfig,
-    ); //added by extension
+    );
   }
 }
