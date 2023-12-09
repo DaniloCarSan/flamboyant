@@ -22,7 +22,7 @@ class PlantasPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Catalogo"),
+        title: const Text("Catálogo"),
         actions: const [
           // IconButton(
           //   icon: const Icon(Icons.search),
