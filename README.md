@@ -21,9 +21,9 @@ Agradecemos qualquer contribuição para a melhoria deste aplicativo. Se você t
 ### Screenshots
 
 <p float="left">
-  <img src="https://github.com/DaniloCarSan/flamboyant/blob/main/assets/screenshots/home.png?raw=true" width="300" />
-  <img src="https://github.com/DaniloCarSan/flamboyant/blob/main/assets/screenshots/catalogo.png?raw=true" width="300" /> 
-  <img src="https://github.com/DaniloCarSan/flamboyant/blob/main/assets/screenshots/quiz.png?raw=true" width="300" />
+  <img src="https://github.com/DaniloCarSan/flamboyant/blob/main/assets/screenshots/home.png?raw=true" width="200" />
+  <img src="https://github.com/DaniloCarSan/flamboyant/blob/main/assets/screenshots/catalogo.png?raw=true" width="200" /> 
+  <img src="https://github.com/DaniloCarSan/flamboyant/blob/main/assets/screenshots/quiz.png?raw=true" width="200" />
 </p>
 ## Licença
 
