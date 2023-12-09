@@ -18,6 +18,12 @@ Este é o Flamboyant, um aplicativo desenvolvido para a faculdade ESALQ. O aplic
 
 Agradecemos qualquer contribuição para a melhoria deste aplicativo. Se você tiver alguma sugestão ou encontrar algum problema, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
+### Screenshots
+
+![Pagina inicial](https:github.com/DaniloCarSan/flamboyant/blob/main/screenshots/home.png?raw=true)
+![Catálogo de plantas](https:github.com/DaniloCarSan/flamboyant/blob/main/screenshots/catalogo.png?raw=true)
+![Quiz de plantas](https:github.com/DaniloCarSan/flamboyant/blob/main/screenshots/quiz.png?raw=true)
+
 ## Licença
 
 Este projeto está licenciado sob a licença MIT.
