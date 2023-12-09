@@ -56,7 +56,7 @@ class _QuizItemPageState extends State<QuizItemPage> {
             "Pergunta ${widget.quiz.getCurrentItemLabel()}/${widget.quiz.pergutasTotal}"),
         actions: [
           IconButton(
-            icon: const Icon(FontAwesomeIcons.tree),
+            icon: const Icon(FontAwesomeIcons.infoCircle),
             onPressed: () => Modular.to.pushNamed(
               PlantaPage.route,
               arguments: quizItem.getPlanta(),
@@ -101,7 +101,10 @@ class _QuizItemPageState extends State<QuizItemPage> {
                 child: Text(
                   quizItem.pergunta.descricao,
                   textAlign: TextAlign.center,
-                  style: const TextStyle(fontSize: 16),
+                  style: const TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
             ),
@@ -117,7 +120,15 @@ class _QuizItemPageState extends State<QuizItemPage> {
                           });
                         },
                       ),
-                      title: Text(alternativa.descricao),
+                      title: Text(
+                        alternativa.descricao,
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: quizItem.respostas.contains(alternativa)
+                              ? Colors.orange
+                              : Colors.black,
+                        ),
+                      ),
                       onTap: () {
                         setState(() {
                           quizItem.setResposta(alternativa);
@@ -137,7 +148,8 @@ class _QuizItemPageState extends State<QuizItemPage> {
                   ? quizResultado(context)
                   : proximaPergunta(context),
               child: Icon(
-                  widget.quiz.quizEnd() ? Icons.check : Icons.arrow_forward),
+                widget.quiz.quizEnd() ? Icons.check : Icons.arrow_forward,
+              ),
             )
           : null,
     );
