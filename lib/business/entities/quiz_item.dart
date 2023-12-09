@@ -30,7 +30,7 @@ class QuizItem {
     return respostas.isNotEmpty;
   }
 
-  clear() {
+  limparRespostas() {
     respostas = [];
   }
 }
